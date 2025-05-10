@@ -1,0 +1,12 @@
+SensorID,DeviceType,Location,Temperature,Humidity,Timestamp
+101,TempSensor,Room1,22.5,45.0,2023-01-01 08:00:00
+102,TempSensor,Room2,24.0,40.0,2023-01-01 08:05:00
+103,HumiditySensor,Room1,23.5,55.0,2023-01-01 08:10:00
+104,TempSensor,Room3,21.0,60.0,2023-01-01 08:15:00
+105,HumiditySensor,Room2,25.0,35.0,2023-01-01 08:20:00
+106,TempSensor,Room1,22.0,50.0,2023-01-01 08:25:00
+107,TempSensor,Room3,20.5,65.0,2023-01-01 08:30:00
+108,HumiditySensor,Room3,21.5,70.0,2023-01-01 08:35:00
+109,HumiditySensor,Room1,22.8,60.0,2023-01-01 08:40:00
+110,TempSensor,Room2,24.5,42.0,2023-01-01 08:45:00
+

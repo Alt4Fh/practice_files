@@ -1,0 +1,11 @@
+EmployeeID,Name,Department,Region,Sales,Month,Year
+1, Alice, Sales, East, 50000, January, 2023
+2, Bob, Sales, West, 75000, January, 2023
+3, Charlie, Marketing, East, 30000, January, 2023
+4, David, Sales, South, 40000, January, 2023
+5, Eve, Marketing, North, 45000, January, 2023
+6, Frank, Sales, East, 52000, January, 2023
+7, Grace, Sales, West, 70000, January, 2023
+8, Heidi, Marketing, South, 32000, January, 2023
+9, Ivan, Sales, North, 48000, January, 2023
+10, Jack, Sales, East, 51000, January, 2023

@@ -1,0 +1,11 @@
+TransactionID,Date,Store,Product,Quantity,Price
+1,2024-01-01,Store A,Laptop,1,1000
+2,2024-01-01,Store A,Tablet,2,500
+3,2024-01-02,Store B,Laptop,3,1000
+4,2024-01-02,Store B,Tablet,4,500
+5,2024-01-03,Store A,Smartphone,5,700
+6,2024-01-03,Store A,Tablet,6,500
+7,2024-01-04,Store B,Smartphone,7,700
+8,2024-01-04,Store B,Tablet,8,500
+9,2024-01-05,Store A,Laptop,9,1000
+10,2024-01-05,Store A,Smartphone,10,700
