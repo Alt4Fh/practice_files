@@ -52,14 +52,57 @@ def _(df, plt):
 @app.cell
 def _(df, plt, sns):
     plt.figure(figsize=(12,8))
-    sns.boxplot(data=df.drop('species', axis=1))
+    for i, column in enumerate(df.columns[:-1], 1): ## excluse species
+        plt.subplot(2,2,i)
+        sns.boxplot(x='species', y=column, data=df)
+        plt.title(f'{column} by Species')
+    plt.tight_layout()
     plt.show()
     return
 
 
 @app.cell
 def _(df, sns):
-    sns.pairplot(df, hue='species')
+    sns.pairplot(df, hue='species', diag_kind='kde')
+
+    return
+
+
+@app.cell
+def _(df):
+    df['species'].unique()
+    return
+
+
+@app.cell
+def _(df):
+    df_num_only = df.drop(columns=['species'])
+    return (df_num_only,)
+
+
+@app.cell
+def _(df_num_only):
+    df_num_only.corr()
+    return
+
+
+@app.cell
+def _(df_num_only, plt, sns):
+    sns.heatmap(df_num_only.corr(), annot=True,linecolor='cyan', linewidths=0.5, cmap='coolwarm')
+    plt.title('Feature correlation')
+
+    return
+
+
+@app.cell
+def _(df, sns):
+    sns.scatterplot(data=df, x='sepal_length', y='sepal_width', hue='species' )
+    return
+
+
+@app.cell
+def _(df):
+    df.groupby('species').std()
     return
 
 
