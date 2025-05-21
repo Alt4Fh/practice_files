@@ -73,8 +73,7 @@ def _(mo):
         r"""
     ## Bar chart uses rectangular bar to show the value of different categories 
     ## Each bar --- one category
-    ## Height or length of the bar  =  value 
-
+    ## Height or length of the bar  =  value
     """
     )
     return
